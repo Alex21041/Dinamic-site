@@ -64,3 +64,170 @@ header ul li ul {
 header ul li:hover ul {
     display: block;
 }
+/*
+SLIDER 
+*/
+.slider-title {
+    text-align: center;
+    padding: 30px 0;
+}
+.carousel{
+    height: 400px;
+}
+.carousel-inner, .carousel-item {
+    height: 400%;
+    border-radius: 4px;
+}
+.carousel-caption h5{
+    font-size: 2rem;
+    font-weight: 500;
+    background: #000000;
+    max-width: 100px;
+    padding: 0.2em; 
+    opacity: 0.5;
+}
+.carousel-caption h5 a:hover{
+    tex-t-decoration: underline;    
+}
+/*
+Main
+*/
+.main-content h2{
+    margin: 30px 0;
+}
+.main-content .post {
+    margin-bottom: 3em; 
+}
+.main-content .post_text {
+    background: #ffffff;
+    padding: 8em;
+}
+.main-content h2 {
+    margin: 30px 0;
+}
+.main-content .post {
+    margin-bottom: 3em;
+}
+.main-content .post_text {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 3px;
+}
+.main-content .post_text h3 a {
+    color: #333333;
+    text-decoration: none;
+}
+.main-content .post_text h3 a:hover {
+    text-decoration: underline;
+}
+/* ================================================
+   ДОБАВИТЬ В КОНЕЦ ТВОЕГО css/style.css
+   (существующие стили шапки, меню и карусели не трогай)
+   ================================================ */
+
+/* --- Карусель: ограничение высоты картинок --- */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* --- Секция услуг --- */
+.main-content h2 {
+    margin: 40px 0 30px;
+    text-align: center;
+}
+
+.service-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.service-card:hover {
+    box-shadow: 0 8px 20px rgba(29, 122, 116, 0.25);
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 3em;
+    color: #1d7a74;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #555555;
+    font-size: 0.95em;
+}
+
+/* --- Секция "Почему мы" --- */
+.why-us {
+    background: #1d7a74;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.why-us h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.why-item {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.why-item i {
+    font-size: 2.5em;
+    margin-bottom: 12px;
+}
+
+.why-item h4 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.why-item p {
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+/* --- Футер --- */
+footer {
+    background: #15302e;
+    color: #ffffff;
+    padding: 40px 0 10px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.95em;
+    opacity: 0.9;
+}
+
+footer i {
+    margin-right: 8px;
+    color: #4db8b0;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
